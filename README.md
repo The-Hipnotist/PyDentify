@@ -12,7 +12,7 @@ You will need some requirements to get started:
 
 - The COCO weights [dataset](https://drive.google.com/file/d/1ht1sOOM5h6vYnhzytwTCxqUjyR8DbAOT/view?usp=sharing)
 
-- Python 3.8.6 with PyTorch + CUDA installed. PyTorch CPU may work too if you don't have enough GPU power.
+- Python 3.8.6 with PyTorch + CUDA 11.3 installed. PyTorch CPU may work too if you don't have enough GPU power.
 
 - Install the packages from requirements.txt.
 
