@@ -1,4 +1,4 @@
-# Image Identifier Discord Bot
+# Image Identifier Discord Bot (AKA PyDentify)
 A discord bot that uses GPT2 to identify an image from a link.
 ## How to use
 
