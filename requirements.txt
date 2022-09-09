@@ -1,0 +1,15 @@
+[for GPU's]
+torch==1.12.1+cu113
+torchaudio==0.12.1+cu113
+torchvision==0.13.1+cu113
+[for CPU's]
+torch
+torchvision
+torchaudio
+[the rest of the packages can be installed either on CPU or GPU]
+skimage==0.19.3
+hikari==2.0.0.dev109
+hikari-lightbulb==2.2.4
+numpy==1.23.2
+transformers==4.21.3
+git+https://github.com/openai/CLIP.git@d50d76daa670286dd6cacf3bcd80b5e4823fc8e1
