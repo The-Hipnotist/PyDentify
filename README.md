@@ -43,7 +43,17 @@ You will need some requirements to get started:
 - The COCO weights [dataset](https://drive.google.com/file/d/1ht1sOOM5h6vYnhzytwTCxqUjyR8DbAOT/view?usp=sharing)
 
 - Python 3.8.6 with PyTorch + CUDA 11.3 installed. PyTorch CPU may work too if you don't have enough GPU power.
-
+-- To test if you have GPU installed with Pytorch, run:
+```python
+import torch
+print(torch.cuda.is_available())
+```
+or:
+```python
+from torch.cuda import is_available
+print(is_available())
+```
+If you get an output that just says True, you have cuda installed. If you get False, GPU is not installed.
 - Install the packages from requirements.txt.
 
 ### Feel free to improve or make this better, I'm just dumping this here for the sake of clearing some space up.
