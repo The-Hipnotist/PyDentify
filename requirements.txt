@@ -7,7 +7,7 @@ torch
 torchvision
 torchaudio
 [the rest of the packages can be installed either on CPU or GPU]
-skimage==0.19.3
+scikit-image==0.19.3
 hikari==2.0.0.dev109
 hikari-lightbulb==2.2.4
 numpy==1.23.2
