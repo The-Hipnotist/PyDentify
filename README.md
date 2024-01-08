@@ -40,7 +40,8 @@ async def linktester(ctx): #<- This is ok though.
 ## Requirements
 You will need some requirements to get started:
 
-- The COCO weights [dataset](https://drive.google.com/file/d/1ht1sOOM5h6vYnhzytwTCxqUjyR8DbAOT/view?usp=sharing)
+~~- The COCO weights [dataset](https://drive.google.com/file/d/1ht1sOOM5h6vYnhzytwTCxqUjyR8DbAOT/view?usp=sharing)~~
+Google Drive link has been taken down, an alternative might not be found.
 
 - Python 3.8.6 with PyTorch + CUDA 11.3 installed. PyTorch CPU may work too if you don't have enough GPU power.
 - To test if you have GPU installed with Pytorch, run:
